@@ -5,7 +5,7 @@ We referenced the work of [GNN-FakeNews](https://github.com/safe-graph/GNN-FakeN
 ## Instruction
 We constructed a Weibo dataset, the original data of the dataset comes from the Chinese Weibo social platform, including a total of 4,664 news, each news constitutes a network, which is represented as a graph, the root node of each tree is "news", and all the other leaf nodes represent "users", as shown in the following figure:
 
-![Graph Representation](https://github.com/Chandler-Q/Weibo_dataset/graph.jpg)
+![Graph Representation](https://github.com/Chandler-Q/Weibo_dataset/blob/main/graph.jpg)
 
 We used pre-trained embeddings [spaCy](https://spacy.io/models/zh#zh_core_web_lg) word2vec and [BERT](https://github.com/jina-ai/clip-as-service) for embedding process.
 |  Weibo   | #Total Graphs  | #Fake News  |#Total Nodes|#Total Edges| Profile size  | word2vec size  | BERT size|
