@@ -21,5 +21,5 @@ We used pre-trained embeddings [spaCy](https://spacy.io/models/zh#zh_core_web_lg
 |  Graph_processing.py | The script for processing graphs Some pre-processing work was done with it.|
 |  encoding.py | word2vec and BERT pre-trained embeddings |
 |  dataset_processing.py | The main runtime script that performs the raw data embedding process. |
-|  Weibo.py | Post-embedding data (in . \data\raw) generated from dataset_processing.py  to generate a my PyG dataset. |
+|  Weibo.py | Post-embedding data (in . \data\raw) generated from dataset_processing.py  to generate my own PyG dataset. |
 
