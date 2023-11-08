@@ -1,6 +1,6 @@
 # Weibo_dataset
 This is a Python script for processing raw weibo data to build a PyG dataset. This repo includes the Pytorch-Geometric implementation of our Weibo dataset.
-
+The raw data come from [Weibo](https://www.dropbox.com/s/46r50ctrfa0ur1o/rumdect.zip?dl=0).
 We referenced the work of [GNN-FakeNews](https://github.com/safe-graph/GNN-FakeNews) and [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) in creating this dataset.
 ## Instruction
 We constructed a Weibo dataset, the original data of the dataset comes from the Chinese Weibo social platform, including a total of 4,664 news, each news constitutes a network, which is represented as a graph, the root node of each tree is "news", and all the other leaf nodes represent "users", as shown in the following figure:
